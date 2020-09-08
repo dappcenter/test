@@ -591,7 +591,7 @@ contract zooPoolCRTReward is LPTokenCRTWrapper, IRewardDistributionRecipient {
     uint256 public constant DURATION = 2 days;
 
     uint256 public initreward = 750*1e18;
-    uint256 public starttime = 1599310800; //Saturday, 5 September 2020 13:00:00 (UTC)
+    uint256 public starttime = 1599613200; //Saturday, 5 September 2020 13:00:00 (UTC)
     uint256 public periodFinish = 0;
     uint256 public rewardRate = 0;
     uint256 public lastUpdateTime;
